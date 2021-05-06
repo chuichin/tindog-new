@@ -4,6 +4,8 @@ Font used is Montserrat and Ubuntu
 Suggest to use more padding instead of margin.... quite interesting
 
 
+## For completed example by Angela: refer https://www.appbrewery.co/p/web-development-course-resources
+
 
 ## Title Section
 Add padding

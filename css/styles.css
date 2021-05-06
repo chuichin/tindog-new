@@ -1,32 +1,30 @@
-
-#title {
-    background-color: #ff4c68;
-    color: white;
+body{
+    font-family: 'Monserrat', sans-serif;  
+    text-align: center
 }
+
+h1, h2, h3, h4, h5, h6 {  
+    font-family: 'Monserrat', sans-serif;  
+}
+
 
 .container-fluid{
-    padding: 2% 17% 7%;
+    padding: 7% 15%;
 }
 
-h1 {  
-    font-family: 'Monserrat', sans-serif;  
+/* HEADING */
+.big-heading{
     font-size: 3rem;  
     line-height: 1.5;  
     font-style: bold;
     font-weight: 900;
 }
 
-h2 {
-    font-family: 'Monserrat', sans-serif;
+.section-heading{
     font-size: 3rem;
+    line-height: 1.5;
     font-weight: 900;
-}
 
-h3 {
-    font-family: 'Monserrat', sans-serif;  
-    font-size: 1.5rem;  
-    line-height: 1;  
-    font-weight: 700;
 }
 
 /* NAVIGATION */
@@ -52,6 +50,19 @@ h3 {
     margin: 5% 3% 5% 0;
 }
 
+
+/* TITLE SECTION */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
 .title-image {
     transform: rotate(15deg);
     position: absolute;
@@ -69,22 +80,22 @@ h3 {
     color: #ff4c68
 }
 #features {
-    padding: 7% 15% ;
     background-color: white;
     position: relative;
     z-index: 1
 }
 
-.feature-box{
-    text-align: center;
-    padding: 5%;
+
+.feature-title{
+    font-size: 1.5rem;
+    line-height: 1;  
+    font-weight: 900;
 
 }
 
 /* TESTIMONAL */
 
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
     color: #ffff;
 }
@@ -95,9 +106,15 @@ h3 {
     margin: 20px;
 }
 
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -108,12 +125,9 @@ h3 {
 
 
 /* Carousel*/
-.carousel-item{
-    padding: 7% 15%;
-}
 
+/* PRICING */
 #pricing {
-    text-align: center;
     padding: 100px 150px 80px
 }
 
@@ -122,27 +136,23 @@ h3 {
     padding: 3% 3%
 }
 
+.price-text{
+    font-size: 3rem;
+    line-height:1.5
+}
 
 
 /* CTA SECTION */
 #cta {
-    text-align: center;
-    padding: 100px;
     background-color: #ff4c68 ;
 }
 
-.cta-h3{
+.cta-heading{
     color: white;
-    font-family: 'Monserrat', sans-serif;
     font-size: 3rem;
     font-weight: 900;
     line-height: 4rem;
     padding:0 20% 3%
-}
-
-#footer {
-    text-align: center;
-    padding: 80px 100px;
 }
 
 

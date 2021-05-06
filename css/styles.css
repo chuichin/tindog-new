@@ -1,11 +1,11 @@
 
 #title {
     background-color: #ff4c68;
-    color: white
+    color: white;
 }
 
 .container-fluid{
-    padding: 2% 15%;
+    padding: 2% 17% 7%;
 }
 
 h1 {  
@@ -29,7 +29,7 @@ h3 {
     font-weight: 700;
 }
 
-/* Navigation */
+/* NAVIGATION */
 .navbar-brand{
     font-family: "Ubuntu", sans-serif;
     font-size: 2.5rem;
@@ -54,11 +54,12 @@ h3 {
 
 .title-image {
     transform: rotate(15deg);
-    width: 60%;
-    right:0
+    position: absolute;
+    height: 80%;
+    right:25%
 }
 
-/* Features */
+/* FEATURES */
 .icon {
     color: #ef8172;
     padding-bottom: 1.2rem;
@@ -68,15 +69,19 @@ h3 {
     color: #ff4c68
 }
 #features {
-    padding: 7% 15%;
+    padding: 7% 15% ;
+    background-color: white;
+    position: relative;
+    z-index: 1
 }
 
 .feature-box{
     text-align: center;
-    padding: 5%
+    padding: 5%;
+
 }
 
-/* Testimonial */
+/* TESTIMONAL */
 
 #testimonials{
     text-align: center;
@@ -105,4 +110,49 @@ h3 {
 /* Carousel*/
 .carousel-item{
     padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px 150px 80px
+}
+
+/* add more space between the stuffs */
+.pricing-col {
+    padding: 3% 3%
+}
+
+
+
+/* CTA SECTION */
+#cta {
+    text-align: center;
+    padding: 100px;
+    background-color: #ff4c68 ;
+}
+
+.cta-h3{
+    color: white;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    padding:0 20% 3%
+}
+
+#footer {
+    text-align: center;
+    padding: 80px 100px;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
 }
